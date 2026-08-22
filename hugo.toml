@@ -1,6 +1,6 @@
 baseURL = 'https://jecisc.github.io/'
 locale = 'en-US'
-title = 'Cyril Ferlicot-Delbecque'
+title = 'Cyril Ferlicot'
 theme = 'mana'
 defaultContentLanguage = 'en'
 
@@ -36,15 +36,31 @@ defaultContentLanguage = 'en'
 [params]
   enableIntegrity = false
   relatedPostsCount = 3
-  description = 'Personal blog of Cyril Ferlicot-Delbecque, software engineer specialized in Pharo Smalltalk'
+  description = 'I’m a software engineer publishing about random things, probably around Pharo Smalltalk'
   author = 'Cyril Ferlicot-Delbecque'
-  heroTitleLine1 = 'CYRIL FERLICOT-DELBECQUE'
+  heroTitleLine1 = 'Cyril’s blog'
+  heroTitleLine2 = 'To anything'
   footerText = 'Built with Hugo and Mana theme'
 
   [params.social]
     github = 'https://github.com/jecisc'
     twitter = "jecisc1"
     email = "cyril@ferlicot.fr"
+
+  [params.avatar]
+    assetPath = "images/jecisc.png"
+    # enableResize = true  # Set false to preserve original size
+
+  [params.favicons]
+    ico = "/favicons/favicon.ico"
+    #png = "/favicons/favicon.png"
+    png16 = "/favicons/favicon-16x16.png"
+    png32 = "/favicons/favicon-32x32.png"
+    apple180 = "/favicons/apple-touch-icon.png"
+    android192 = "/favicons/android-chrome-192x192.png"
+    android512 = "/favicons/android-chrome-512x512.png"
+    manifest = "/favicons/site.webmanifest"
+
 
   [params.codeHighlight]
     darkTheme = 'catppuccin-macchiato'
