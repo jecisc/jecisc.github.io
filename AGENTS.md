@@ -16,6 +16,7 @@ Personal page / blog of Cyril Ferlicot-Delbecque, built with **Hugo + the Mana t
 ## Content conventions
 
 - Posts and pages are **page bundles**: `content/posts/<slug>/index.md` with images next to the `.md`. Markdown image refs (`![](pic.png)`) resolve as page resources.
+- Post bundle folders are **prefixed with the creation date**: `content/posts/YYYY-MM-DD_<slug>/` (e.g. `2026-08-23_taskbar-drag-and-drop`). The prefix shows up in the post URL; if an already-published post is ever renamed, add `aliases: ["/posts/<old-slug>/"]` to its front matter so the old URL redirects.
 - `assets/` is for files consumed by templates/config only (`resources.Get`, e.g. avatars) — it is **not** published and cannot be referenced from Markdown. Browser-static files go in `static/` (published verbatim), e.g. `static/favicons/`.
 - Avatars: `[params.avatar]` in `hugo.toml` (home hero) and `[params.avatar.about]` (About page); paths relative to `assets/`. Favicons: `[params.favicons]` → `static/favicons/`.
 

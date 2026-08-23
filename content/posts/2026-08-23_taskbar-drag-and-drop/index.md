@@ -3,6 +3,7 @@ title: "Finally! Drag and Drop in Pharo's Taskbar"
 date: 2026-08-23
 tags: ["Pharo", "ui", "ide"]
 image: "taskbar.png"
+aliases: ["/posts/taskbar-drag-and-drop/"]
 ---
 
 Some TODOs live in an issue tracker. Mine lived in the back of my head for over a decade:

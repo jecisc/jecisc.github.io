@@ -18,16 +18,7 @@ I hold a MIAGE master (Master of Business Informatics) from the University of Li
 
 ## Open source
 
-I contribute to the [Pharo](https://pharo.org/) ecosystem since 2015. Pharo is a pure object-oriented programming language and a powerful live environment focused on simplicity and immediate feedback.
-
-Projects I maintain or contributed to too many projects. You can explore my github or get in touch with me for more information. Here are some examples:
-
-- [Pharo](https://github.com/pharo-project/pharo): A live and pur OO programming language and its IDE.
-- [Material Design for Pharo](https://github.com/DuneSt/MaterialDesignLite): web components following the Material Design guidelines, on top of Seaside.
-- [TinyLogger](https://github.com/jecisc/TinyLogger): a small but efficient logger for Pharo.
-- [Chanel](https://github.com/jecisc/Chanel): an automatic code cleaner for Pharo code.
-- [Moose](https://moosetechnology.org/): a platform for software and data analysis. 
-- And many many others
+I contribute to the [Pharo](https://pharo.org/) ecosystem since 2015, where I maintain several projects and contribute to many more. The full list lives on my [open source page](/open-source/).
 
 ## Beyond code
 

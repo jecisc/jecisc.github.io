@@ -43,6 +43,102 @@
   border-radius: 8px;
 }
 
+/* Project cards (open-source page) */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.project-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.1rem;
+  border: 3px solid var(--border-color);
+  border-radius: 8px;
+  background: var(--bg-tertiary);
+  overflow: hidden;
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+/* Light reflection sweeping diagonally across the card on hover */
+.project-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    120deg,
+    transparent 35%,
+    var(--accent-light-purple-rgba-03) 50%,
+    transparent 65%
+  );
+  transform: translateX(-150%);
+  transition: transform 1.2s ease;
+  pointer-events: none;
+}
+
+.project-card:hover {
+  border-color: var(--accent-primary);
+  transform: translateY(-2px);
+}
+
+.project-card:hover::before {
+  transform: translateX(150%);
+}
+
+.project-card h4 {
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+}
+
+/* Whole card acts as a link to the repo */
+.project-card h4 a::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+.project-card p {
+  position: relative;
+  z-index: 2;
+}
+
+.project-card h4 a {
+  font-family: var(--font-mono);
+  font-weight: 600;
+  color: var(--accent-primary);
+  text-decoration: none;
+}
+
+.project-card h4 a:hover {
+  color: var(--accent-light-purple);
+}
+
+.project-card p {
+  flex-grow: 1;
+  margin: 0 0 0.75rem;
+  font-size: 0.925rem;
+}
+
+.project-meta p {
+  margin: 0;
+}
+
+.project-meta {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-meta p {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem;
+}
+
 /* Dark mode: subtle diagonal blue → pink gradient background */
 [data-theme="dark"] body {
   background-color: #1e3a8a; /* fallback while gradient loads */
