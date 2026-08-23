@@ -31,7 +31,20 @@ Projects I maintain or contributed to too many projects. You can explore my gith
 
 ## Beyond code
 
-When I'm not in front of a screen, you'll find me listening to music, playing board and video games, reading, drawing, painting miniatures, or doing embroidery...
+When I'm not in front of a screen, you'll find me listening to music, playing board and video games, reading, drawing, painting miniatures, doing embroidery or doing sport link climbing.
+
+
+<div class="image-row">
+  <img src="embroidery.png" alt="An embroidery I made">
+  <img src="climb.png" alt="Me climbing">
+</div>
+
+I share all of this with my two cats, Billy and Furry, who supervise everything I do:
+
+<div class="image-row">
+  <img src="billy.png" alt="Billy, one of my two cats">
+  <img src="furry.png" alt="Furry, my second cat">
+</div>
 
 ## Contact
 

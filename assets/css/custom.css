@@ -1,0 +1,33 @@
+/* Custom site styles — loaded globally via layouts/partials/head/css.html override */
+
+.image-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin: var(--spacing-lg, 2rem) 0;
+}
+
+.image-row img {
+  width: min(280px, 45%);
+  height: auto;
+  border-radius: 8px;
+}
+
+@media (max-width: 479px) {
+  .image-row img {
+    width: 85%;
+  }
+}
+
+.centered-figure {
+  text-align: center;
+  margin: var(--spacing-lg, 2rem) 0;
+}
+
+.centered-figure img {
+  width: min(420px, 100%);
+  height: auto;
+  border-radius: 8px;
+}

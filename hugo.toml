@@ -51,6 +51,10 @@ defaultContentLanguage = 'en'
     assetPath = "images/jecisc.png"
     # enableResize = true  # Set false to preserve original size
 
+  [params.avatar.about]
+    assetPath = "images/me.png"
+    enableResize = true
+
   [params.favicons]
     ico = "/favicons/favicon.ico"
     #png = "/favicons/favicon.png"
