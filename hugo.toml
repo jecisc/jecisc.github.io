@@ -1,4 +1,4 @@
-baseURL = 'https://jecisc.github.io/'
+baseURL = 'https://blog.ferlicot.fr/'
 locale = 'en-US'
 title = 'Cyril Ferlicot'
 theme = 'mana'
