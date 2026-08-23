@@ -93,11 +93,16 @@ defaultContentLanguage = 'en'
   weight = 30
 
 [[menus.main]]
+  name = 'CV'
+  pageRef = '/cv'
+  weight = 40
+
+[[menus.main]]
   name = 'Tags'
   pageRef = '/tags'
-  weight = 40
+  weight = 50
 
 [[menus.main]]
   name = 'About'
   pageRef = '/about'
-  weight = 50
+  weight = 60
