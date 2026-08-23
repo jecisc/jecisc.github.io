@@ -26,7 +26,9 @@ And this might only be the beginning: I would love to add features like pinning 
 
 Feedback welcome — try it!
 
-Also, on a totally random note, my cat are not really helping with puzzles :(
+## Random ending
+
+Also, on a totally random note, my cats are not really helping with puzzles :(
 
 
 <div class="centered-figure">
