@@ -2,7 +2,7 @@
 
 ## What this repo is
 
-GitHub Pages **user site** (`jecisc.github.io`): everything built from `main` is published live at https://jecisc.github.io. Pushes to `main` go public immediately — never commit drafts, scratch files, or secrets. (Posts use `draft: true` front matter until ready; drafts never reach CI output.)
+GitHub Pages **user site** (`jecisc.github.io`): everything built from `main` is published live at https://ferlicot.fr (custom domain; apex A records → GitHub Pages IPs, `www` redirects). Pushes to `main` go public immediately — never commit drafts, scratch files, or secrets. (Posts use `draft: true` front matter until ready; drafts never reach CI output.)
 
 Personal page / blog of Cyril Ferlicot-Delbecque, built with **Hugo + the Mana theme** (`themes/mana` git submodule). Single-branch workflow (`main`).
 

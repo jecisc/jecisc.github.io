@@ -1,4 +1,4 @@
-baseURL = 'https://blog.ferlicot.fr/'
+baseURL = 'https://ferlicot.fr/'
 locale = 'en-US'
 title = 'Cyril Ferlicot-Delbecque'
 theme = 'mana'
