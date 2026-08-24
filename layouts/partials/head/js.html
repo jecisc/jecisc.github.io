@@ -13,4 +13,18 @@
 {{ $readingProgress := resources.Get "js/reading-progress.js" }}
 {{ $custom := resources.Get "js/custom.js" }}
 {{ $js := slice $constants $utils $themeToggle $search $scrollToTop $navigation $toc $filters $codeBlocks $blockquotes $languageSwitcher $pageTransitions $readingProgress $custom | resources.Concat "js/main.js" | minify | fingerprint }}
+{{ with site.Params.giscus }}
+<script>
+  window.siteGiscus = {
+    repo: {{ .repo }},
+    repoId: {{ .repoId }},
+    category: {{ .category }},
+    categoryId: {{ .categoryId }},
+    mapping: {{ .mapping | default "pathname" }},
+    inputPosition: {{ .inputPosition | default "bottom" }},
+    lang: {{ .lang | default "en" }},
+    reactionsEnabled: {{ .reactionsEnabled | default true }}
+  };
+</script>
+{{ end }}
 <script src="{{ $js.RelPermalink }}" defer></script>

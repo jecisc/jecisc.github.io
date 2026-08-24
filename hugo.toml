@@ -78,6 +78,16 @@ enableRobotsTXT = true
   [params.admonitions]
     alertStyle = 'favicon'
 
+  [params.giscus]
+    repo = 'jecisc/jecisc.github.io'
+    repoId = 'R_kgDOUAu8hw'
+    category = 'Announcements'
+    categoryId = 'DIC_kwDOUAu8h84DEGVe'
+    mapping = 'pathname'
+    reactionsEnabled = true
+    inputPosition = 'bottom'
+    lang = 'en'
+
 [[menus.main]]
   name = 'Home'
   pageRef = '/'
