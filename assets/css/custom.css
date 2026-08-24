@@ -432,3 +432,42 @@ article.single-post:has(.page-meta-hidden) .post-meta {
 .comments {
   margin-top: var(--spacing-xl);
 }
+
+/* Content tables: light rules instead of the raw browser grid */
+.post-content-main table {
+  width: 100%;
+  margin: var(--spacing-lg) 0;
+  border-collapse: collapse;
+  font-size: 0.925rem;
+}
+
+.post-content-main th,
+.post-content-main td {
+  padding: 0.55rem 0.9rem;
+  text-align: left;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.post-content-main th {
+  font-weight: 600;
+  background-color: var(--bg-secondary);
+  border-bottom: 2px solid var(--border-color);
+}
+
+.post-content-main tbody tr:nth-child(even) {
+  background-color: var(--bg-tertiary);
+}
+
+/* Quieter content links: muted accent text + accent underline */
+.post-content-main a {
+  color: color-mix(in srgb, var(--accent-primary) 55%, var(--text-primary));
+  text-decoration: underline;
+  text-decoration-color: var(--accent-primary);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.post-content-main a:hover {
+  color: var(--accent-primary);
+  text-decoration-color: var(--accent-primary);
+}
