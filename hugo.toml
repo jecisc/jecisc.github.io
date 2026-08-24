@@ -3,6 +3,7 @@ locale = 'en-US'
 title = 'Cyril Ferlicot-Delbecque'
 theme = 'mana'
 defaultContentLanguage = 'en'
+enableRobotsTXT = true
 
 [pagination]
   pageSize = 10
@@ -26,7 +27,7 @@ defaultContentLanguage = 'en'
     style = 'catppuccin-macchiato'
 
 [outputs]
-  home = ['HTML', 'JSON']
+  home = ['HTML', 'JSON', 'RSS']
 
 [sitemap]
   changefreq = 'weekly'
