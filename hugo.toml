@@ -84,12 +84,12 @@ defaultContentLanguage = 'en'
 
 [[menus.main]]
   name = 'CV'
-  pageRef = '/cv'
+  pageRef = '/pages/cv'
   weight = 20
 
 [[menus.main]]
   name = 'Open Source'
-  pageRef = '/open-source'
+  pageRef = '/pages/open-source'
   weight = 30
 
 [[menus.main]]
@@ -104,5 +104,5 @@ defaultContentLanguage = 'en'
 
 [[menus.main]]
   name = 'About'
-  pageRef = '/about'
+  pageRef = '/pages/about'
   weight = 60
