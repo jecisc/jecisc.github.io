@@ -10,7 +10,7 @@ defaultContentLanguage = 'en'
 [markup]
   [markup.tableOfContents]
     startLevel = 1
-    endLevel = 6
+    endLevel = 3
     ordered = false
   [markup.goldmark]
     [markup.goldmark.renderer]

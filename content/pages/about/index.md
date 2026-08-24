@@ -4,6 +4,8 @@ url: /about/
 date: 2026-01-03
 ---
 
+<span class="page-meta-hidden"></span>
+
 Hello! I'm **Cyril Ferlicot-Delbecque**, a research engineer living near Lille, France. I spend my days working on language evolution and software analysis, and my free time contributing to open source projects around [Pharo](https://pharo.org/).
 
 ## Work

@@ -4,6 +4,8 @@ url: /cv/
 date: 2026-01-01
 ---
 
+<span class="page-meta-hidden"></span>
+
 <p class="page-subtitle">I love cleaning legacy code and reducing the technical debt of existing projects.</p>
 
 <div class="cv-intro">

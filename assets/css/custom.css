@@ -421,3 +421,9 @@
     background: #666 !important;
   }
 }
+
+/* Hide the meta bar (date, word count, reading time) on static pages that carry
+   the .page-meta-hidden marker; blog posts keep it. */
+article.single-post:has(.page-meta-hidden) .post-meta {
+  display: none;
+}

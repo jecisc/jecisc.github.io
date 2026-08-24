@@ -4,6 +4,8 @@ url: /open-source/
 date: 2026-01-02
 ---
 
+<span class="page-meta-hidden"></span>
+
 Most of my open source work lives in the [Pharo](https://pharo.org/) ecosystem. I am one of the two creators of the [Pharo Wiki](https://github.com/pharo-open-documentation/pharo-wiki) and of [Awesome Pharo](https://github.com/pharo-open-documentation/awesome-pharo).
 
 ## Documentation
