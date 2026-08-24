@@ -260,6 +260,34 @@ A tool to add to your Pharo IDE to list the flags/TODOs in the Pharo IDE.
 
 </div>
 
+<div class="project-card">
+
+#### [moosetechnology/FAST-Python](https://github.com/moosetechnology/FAST-Python)
+
+A Famix AST metamodel representing Python source code, built on top of Tree-sitter. It also provides a control flow graph, name resolution and an SSA algorithm.
+
+<div class="project-meta">
+
+![Pharo](https://img.shields.io/badge/Pharo-blue?style=flat-square) ![since 2026](https://img.shields.io/badge/since_2026-lightgrey?style=flat-square)
+
+</div>
+
+</div>
+
+<div class="project-card">
+
+#### [moosetechnology/MoosePy](https://github.com/moosetechnology/MoosePy)
+
+Tools to import Python code into Moose through its Python metamodel.
+
+<div class="project-meta">
+
+![Pharo](https://img.shields.io/badge/Pharo-blue?style=flat-square) ![since 2023](https://img.shields.io/badge/since_2023-lightgrey?style=flat-square)
+
+</div>
+
+</div>
+
 </div>
 
 ## Projects I contribute to
