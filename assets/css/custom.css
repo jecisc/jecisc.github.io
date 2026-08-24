@@ -1,5 +1,24 @@
 /* Custom site styles — loaded globally via layouts/partials/head/css.html override */
 
+/* Hero tagline: smaller than the theme default so the long line reads as a subtitle */
+.hero-title-line2 {
+  font-size: clamp(1.35rem, 2.8vw, 2.25rem);
+  -webkit-text-stroke: 1.25px var(--accent-light-purple);
+  margin-top: 20px;
+}
+
+/* Wide screens: give the name room and keep it on a single line */
+@media (min-width: 1200px) {
+  .hero-content {
+    grid-template-columns: 1.5fr 1fr;
+  }
+
+  .hero-title-line1 {
+    white-space: nowrap;
+    font-size: clamp(2.4rem, 2.9vw, 2.75rem);
+  }
+}
+
 .image-row {
   display: flex;
   flex-wrap: wrap;

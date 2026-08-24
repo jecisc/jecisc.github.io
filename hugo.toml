@@ -1,6 +1,6 @@
 baseURL = 'https://blog.ferlicot.fr/'
 locale = 'en-US'
-title = 'Cyril Ferlicot'
+title = 'Cyril Ferlicot-Delbecque'
 theme = 'mana'
 defaultContentLanguage = 'en'
 
@@ -36,10 +36,10 @@ defaultContentLanguage = 'en'
 [params]
   enableIntegrity = false
   relatedPostsCount = 3
-  description = 'I’m a software engineer publishing about random things, probably around Pharo Smalltalk'
+  description = 'Personal page and blog of Cyril Ferlicot-Delbecque: R&D engineer, legacy code tamer and open source enthusiast.'
   author = 'Cyril Ferlicot-Delbecque'
-  heroTitleLine1 = 'Cyril’s blog'
-  heroTitleLine2 = 'To anything'
+  heroTitleLine1 = 'Cyril Ferlicot-Delbecque'
+  heroTitleLine2 = 'R&D Engineer, legacy code tamer and open source enthusiast'
   footerText = 'Built with Hugo and Mana theme'
 
   [params.social]
@@ -83,8 +83,8 @@ defaultContentLanguage = 'en'
   weight = 10
 
 [[menus.main]]
-  name = 'Posts'
-  pageRef = '/posts'
+  name = 'CV'
+  pageRef = '/cv'
   weight = 20
 
 [[menus.main]]
@@ -93,8 +93,8 @@ defaultContentLanguage = 'en'
   weight = 30
 
 [[menus.main]]
-  name = 'CV'
-  pageRef = '/cv'
+  name = 'Posts'
+  pageRef = '/posts'
   weight = 40
 
 [[menus.main]]
