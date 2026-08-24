@@ -86,7 +86,7 @@ In order to get bellow 27sec, we need to reduce the time it takes to recompile m
 
 I discussed with people and we have 3 ideas in order to improve this.
 
-The first idea is about object headers. For now we store info only in 32 bits of object headers because Pharo still runs on 32bytes system. An idea would be to use one of the remaining 32bytes when we are on a 64bytes system to store the info: does my method accesses a slot? This could speed up the rebuild since we could skip the recompilation of all stateless methods. And almost no one develops in 32bytes.
+The first idea is about object headers. For now we store info only in 32 bits of object headers because Pharo still runs on 32bits system. An idea would be to use one of the remaining 32bits when we are on a 64bits system to store the info: does my method accesses a slot? This could speed up the rebuild since we could skip the recompilation of all stateless methods. And almost no one develops in 32bits.
 
 A second idea would be to let the compiler generate silently a hidden getter and setter for all slots. And it would compile accesses as a message send to those methods. Like this, we would have only 2 methods by slots to recompile. And they are tiny methods. The problem is that we would probably need to update the VM and all the tooling to hide those methods.
 
