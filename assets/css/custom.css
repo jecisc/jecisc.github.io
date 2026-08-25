@@ -167,20 +167,36 @@
   border-left: 2px solid var(--border-color);
 }
 
+/* Timeline dots live in the gutter via negative margins (NOT absolute
+   positioning: a positioned ancestor would break Mana's offsetTop-based
+   TOC scroll-spy). Zero net vertical advance thanks to height+margin
+   cancellation, so they don't shift the entry content. */
 .cv-entry {
-  position: relative;
+  --cv-dot-left: calc(-1.5rem - 6px);
 }
 
 .cv-entry::before {
   content: "";
-  position: absolute;
-  top: 0.3rem;
-  left: -1.5rem;
-  transform: translateX(-50%);
+  display: block;
   width: 10px;
   height: 10px;
+  margin: 0.15rem 0 -10px var(--cv-dot-left);
   border-radius: 50%;
   background: var(--accent-primary);
+  transition: transform 0.2s ease;
+  /* Every dot breathes; the current one ripples harder */
+  --cv-pulse-color: color-mix(in srgb, var(--accent-primary) 30%, transparent);
+  --cv-pulse-spread: 8px;
+  animation: cv-pulse 3s ease-out infinite;
+}
+
+/* Desynchronize neighbors so the timeline shimmers instead of blinking */
+.cv-timeline .cv-entry:nth-child(2n)::before {
+  animation-delay: -1.5s;
+}
+
+.cv-entry:hover::before {
+  transform: scale(1.5);
 }
 
 .cv-entry h3 {
@@ -200,38 +216,21 @@
   color: var(--text-muted);
 }
 
-/* Soft pulse marking the current position */
-.cv-entry.current::after {
-  content: "";
-  position: absolute;
-  top: 0.3rem;
-  left: -1.5rem;
-  transform: translateX(-50%);
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background: var(--accent-primary);
-  animation: cv-pulse 2.2s ease-out infinite;
+/* Soft pulse marking the current position: animated shadow ripple on the
+   dot itself, so it can never drift from it — brighter than the others */
+.cv-entry.current::before {
+  --cv-pulse-color: color-mix(in srgb, var(--accent-primary) 70%, transparent);
+  --cv-pulse-spread: 12px;
 }
 
 @keyframes cv-pulse {
   0% {
-    transform: translateX(-50%) scale(1);
-    opacity: 0.7;
+    box-shadow: 0 0 0 0 var(--cv-pulse-color);
   }
   70%,
   100% {
-    transform: translateX(-50%) scale(2.4);
-    opacity: 0;
+    box-shadow: 0 0 0 var(--cv-pulse-spread) transparent;
   }
-}
-
-.cv-entry::before {
-  transition: transform 0.2s ease;
-}
-
-.cv-entry:hover::before {
-  transform: translateX(-50%) scale(1.5);
 }
 
 /* CV intro text + photo side by side */
@@ -401,8 +400,8 @@
     background: #333 !important;
   }
 
-  .cv-entry.current::after {
-    display: none;
+  .cv-entry::before {
+    animation: none;
   }
 
   .cv-date,
