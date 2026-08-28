@@ -11,7 +11,7 @@ Hello! I'm **Cyril Ferlicot-Delbecque**, a research engineer living near Lille, 
 
 ## Beyond code
 
-When I'm not in front of a screen, you'll find me listening to music, playing board and video games, reading, drawing, painting miniatures, doing embroidery or climbing.
+When I'm not in front of a screen, you'll find me listening to music, playing board and video games, reading, drawing, painting miniatures, doing embroidery or climbing. You can see some of the miniatures I painted on [miniatures.ferlicot.fr](https://miniatures.ferlicot.fr).
 
 <div class="image-row">
   <img src="embroidery.png" alt="An embroidery I made">
