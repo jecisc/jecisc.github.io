@@ -146,6 +146,8 @@
 }
 
 .project-meta {
+  position: relative;
+  z-index: 2;
   display: flex;
   flex-wrap: wrap;
 }

@@ -72,7 +72,7 @@ Web components following Google's Material Design guidelines, built on top of th
 
 <div class="project-meta">
 
-![Pharo](https://img.shields.io/badge/Pharo-blue?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-yellow?style=flat-square) ![since 2016](https://img.shields.io/badge/since_2016-lightgrey?style=flat-square)
+![Pharo](https://img.shields.io/badge/Pharo-blue?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-yellow?style=flat-square) ![since 2016](https://img.shields.io/badge/since_2016-lightgrey?style=flat-square) [![demo](https://img.shields.io/badge/demo-mdl.ferlicot.fr-brightgreen?style=flat-square)](https://mdl.ferlicot.fr)
 
 </div>
 
@@ -142,7 +142,7 @@ Seaside bindings of ChartJs to display animated charts in web applications.
 
 <div class="project-meta">
 
-![Pharo](https://img.shields.io/badge/Pharo-blue?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-yellow?style=flat-square) ![since 2016](https://img.shields.io/badge/since_2016-lightgrey?style=flat-square)
+![Pharo](https://img.shields.io/badge/Pharo-blue?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-yellow?style=flat-square) ![since 2016](https://img.shields.io/badge/since_2016-lightgrey?style=flat-square) [![demo](https://img.shields.io/badge/demo-chartjs.ferlicot.fr-brightgreen?style=flat-square)](https://chartjs.ferlicot.fr)
 
 </div>
 
@@ -184,7 +184,7 @@ A Seaside binding of PrismJs to display highlighted code in web applications.
 
 <div class="project-meta">
 
-![Pharo](https://img.shields.io/badge/Pharo-blue?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-yellow?style=flat-square) ![since 2016](https://img.shields.io/badge/since_2016-lightgrey?style=flat-square)
+![Pharo](https://img.shields.io/badge/Pharo-blue?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-yellow?style=flat-square) ![since 2016](https://img.shields.io/badge/since_2016-lightgrey?style=flat-square) [![demo](https://img.shields.io/badge/demo-prism.ferlicot.fr-brightgreen?style=flat-square)](https://prism.ferlicot.fr)
 
 </div>
 
@@ -374,7 +374,7 @@ An engine for efficiently creating meaningful visualizations.
 
 <div class="project-meta">
 
-![Pharo](https://img.shields.io/badge/Pharo-blue?style=flat-square) ![since 2016](https://img.shields.io/badge/since_2016-lightgrey?style=flat-square)
+![Pharo](https://img.shields.io/badge/Pharo-blue?style=flat-square) ![since 2016](https://img.shields.io/badge/since_2016-lightgrey?style=flat-square) [![demo](https://img.shields.io/badge/demo-telescope.ferlicot.fr-brightgreen?style=flat-square)](https://telescope.ferlicot.fr)
 
 </div>
 
