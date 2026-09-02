@@ -3,7 +3,6 @@ title: "Analyzing Python Code with FAST-Python in Moose"
 date: 2026-09-02
 tags: ["Moose", "Python", "Software analysis", "FAST", "Pharo"]
 image: "thumbnail.png"
-draft: true
 ---
 
 Moose is a platform for software analysis. To analyze a program, Moose needs a model. We have two kinds of models: **Famix** models that represent the entities and dependencies of a software system, and **FAST** models that represent the AST of a program.
