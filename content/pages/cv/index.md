@@ -110,55 +110,57 @@ Graduated with honors.
 
 </div>
 
-## Skills
+## Skills and Technologies
 
-<div class="skill-bars">
+<div class="skill-categories">
 
-<div class="skill-bar">
+<div class="skill-category">
 
-<p class="skill-head">Software Analysis <span class="skill-pct">95%</span></p>
+<h3>Skills</h3>
 
-<div class="skill-track"><div class="skill-fill" style="width: 95%"></div></div>
+<div class="skill-tags">
 
-</div>
+<span class="skill-tag">Software Analysis</span>
 
-<div class="skill-bar">
+<span class="skill-tag">Software Architecture</span>
 
-<p class="skill-head">Pharo / Smalltalk <span class="skill-pct">95%</span></p>
+<span class="skill-tag">Object-Oriented Design</span>
 
-<div class="skill-track"><div class="skill-fill" style="width: 95%"></div></div>
-
-</div>
-
-<div class="skill-bar">
-
-<p class="skill-head">Object-Oriented Design <span class="skill-pct">90%</span></p>
-
-<div class="skill-track"><div class="skill-fill" style="width: 90%"></div></div>
+<span class="skill-tag">Legacy Code Refactorings</span>
 
 </div>
 
-<div class="skill-bar">
+</div>
 
-<p class="skill-head">HTML5 / CSS3 <span class="skill-pct">85%</span></p>
+<div class="skill-category">
 
-<div class="skill-track"><div class="skill-fill" style="width: 85%"></div></div>
+<h3>Programming Languages</h3>
+
+<div class="skill-tags">
+
+<span class="skill-tag">Pharo / Smalltalk</span>
+
+<span class="skill-tag">Python</span>
+
+<span class="skill-tag">Java</span>
+
+<span class="skill-tag">HTML5 / CSS3</span>
+
+<span class="skill-tag">Vanilla JavaScript</span>
 
 </div>
 
-<div class="skill-bar">
-
-<p class="skill-head">JavaScript <span class="skill-pct">80%</span></p>
-
-<div class="skill-track"><div class="skill-fill" style="width: 80%"></div></div>
-
 </div>
 
-<div class="skill-bar">
+<div class="skill-category">
 
-<p class="skill-head">Project Management <span class="skill-pct">80%</span></p>
+<h3>Management</h3>
 
-<div class="skill-track"><div class="skill-fill" style="width: 80%"></div></div>
+<div class="skill-tags">
+
+<span class="skill-tag">Project Management</span>
+
+</div>
 
 </div>
 
@@ -166,23 +168,11 @@ Graduated with honors.
 
 ## Languages
 
-<div class="skill-bars">
+<div class="cv-languages">
 
-<div class="skill-bar">
+<span class="cv-language"><strong>French</strong> — native</span>
 
-<p class="skill-head">French — native <span class="skill-pct">95%</span></p>
-
-<div class="skill-track"><div class="skill-fill" style="width: 95%"></div></div>
-
-</div>
-
-<div class="skill-bar">
-
-<p class="skill-head">English — professional (TOEIC: 970/990) <span class="skill-pct">85%</span></p>
-
-<div class="skill-track"><div class="skill-fill" style="width: 85%"></div></div>
-
-</div>
+<span class="cv-language"><strong>English</strong> — professional (TOEIC: 970/990)</span>
 
 </div>
 
