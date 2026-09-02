@@ -1,7 +1,7 @@
 ---
 title: "Finally! Drag and Drop in Pharo's Taskbar"
 date: 2026-08-23
-tags: ["Pharo", "ui", "ide"]
+tags: ["Pharo", "UI", "IDE"]
 image: "taskbar.png"
 aliases: ["/posts/taskbar-drag-and-drop/"]
 ---

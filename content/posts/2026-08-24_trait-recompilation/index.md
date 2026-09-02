@@ -1,7 +1,7 @@
 ---
 title: "Speeding Up Trait Recompilation in Pharo"
 date: 2026-08-24
-tags: ["Pharo", "language", "optimization", "traits"]
+tags: ["Pharo", "Language", "Optimization", "Traits"]
 image: "illu.png"
 aliases: []
 ---
