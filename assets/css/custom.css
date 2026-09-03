@@ -295,6 +295,7 @@
   background: var(--bg-tertiary);
   border: 1px solid var(--border-color);
   color: var(--text-primary);
+  cursor: default;
   white-space: nowrap;
   transition: background 0.2s, color 0.2s, border-color 0.2s;
 }
@@ -305,6 +306,66 @@
   border-color: var(--accent-primary);
 }
 
+/* Programming-language proficiency levels */
+.skill-tag.level-basic {
+  background: color-mix(in srgb, var(--text-muted) 12%, var(--bg-tertiary));
+  border-color: color-mix(in srgb, var(--text-muted) 45%, var(--border-color));
+  color: var(--text-secondary);
+}
+
+.skill-tag.level-confirmed {
+  background: color-mix(in srgb, var(--accent-primary) 14%, var(--bg-tertiary));
+  border-color: color-mix(in srgb, var(--accent-primary) 45%, var(--border-color));
+  color: var(--accent-primary);
+}
+
+.skill-tag.level-expert {
+  background: color-mix(in srgb, #fbbf24 16%, var(--bg-tertiary));
+  border-color: color-mix(in srgb, #f59e0b 55%, var(--border-color));
+  color: #f59e0b;
+}
+
+.skill-tag.level-basic:hover,
+.skill-tag.level-confirmed:hover,
+.skill-tag.level-expert:hover {
+  background: var(--accent-primary);
+  color: #fff;
+  border-color: var(--accent-primary);
+}
+
+.skill-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1rem;
+  margin: 0 0 0.5rem;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.legend-dot {
+  width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 50%;
+}
+
+.legend-dot.dot-expert {
+  background: #f59e0b;
+}
+
+.legend-dot.dot-confirmed {
+  background: var(--accent-primary);
+}
+
+.legend-dot.dot-basic {
+  background: var(--text-muted);
+}
+
 /* Languages */
 .cv-languages {
   display: flex;
@@ -313,7 +374,21 @@
 }
 
 .cv-language {
-  font-size: 0.925rem;
+  display: inline-block;
+  padding: 0.25em 0.7em;
+  font-size: 0.9rem;
+  border-radius: 999px;
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border-color);
+  color: var(--text-primary);
+  cursor: default;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
+}
+
+.cv-language:hover {
+  background: var(--accent-primary);
+  color: #fff;
+  border-color: var(--accent-primary);
 }
 
 /* Page subtitle */

@@ -12,7 +12,9 @@ date: 2026-01-01
 
 <div class="cv-intro-text">
 
-Research engineer living near Lille, France, specialized in software analysis and the Pharo ecosystem. The timeline below sums up my journey; my [about page](/about/) has the softer version and my contact details. You can also find more details on the open source projects I'm working on in the [open source page](/open-source/).
+Research engineer living near Lille, France, specialized in software analysis and the Pharo ecosystem. The timeline below sums up my journey; my [about page](/about/) has the softer version and my contact details.
+
+You can also find more details on the open source projects I'm working on in the [open source page](/open-source/).
 
 </div>
 
@@ -46,7 +48,7 @@ Working on language evolution and software analysis through three successive mis
 
 <p class="cv-date">Oct 2020 – Jan 2023</p>
 
-### CTO & Co-founder @ [Codaxis](https://codaxis.net/)
+### CTO & Co-founder @ Codaxis
 
 I co-founded the company. We built a solution of dynamic and interactive cartographies of information systems to reduce their maintenance cost. We also produced a system to have perennial documentation in an information system by automatically renaming entities in the documentation and warning the developpers if parts of the documentation was obsolete as soon as it became obsolete.
 
@@ -58,7 +60,9 @@ I co-founded the company. We built a solution of dynamic and interactive cartogr
 
 ### R&D Engineer @ [Inria](https://www.inria.fr/en/) — [RMoD](https://rmod.inria.fr/web/team) team
 
-Working on software analysis. I developed an IDE around software analysis and created tooling allowing researchers and engineers to develop their own tools on the same subject.
+Working on software analysis
+- I developed the base of an IDE around software analysis and created tooling allowing researchers and engineers to develop their own tools on the same subject
+- I participated to the implementation of a new architecture for the backend of Moose and did the stabilization of the platform
 
 </div>
 
@@ -66,9 +70,14 @@ Working on software analysis. I developed an IDE around software analysis and cr
 
 <p class="cv-date">Sept 2015 – Oct 2018</p>
 
-### R&D Engineer @ [Synectique](http://synectique.eu/)
+### R&D Engineer @ Synectique
 
-I participated in the creation of a hands-on suite for software management, maintenance, evolution and migration: parsers, models, meta-models and user interfaces.
+I participated in the creation of a hands-on suite for software management, maintenance, evolution and migration: parsers, models, meta-models and user interfaces. 
+
+My main tasks were:
+- Migrating the UI from a desktop application to a web application
+- Adding new analysis tools and support for new programming languages to analyse
+- Developing a new query system in the core of our tools based on meta-meta-modeling to reduce the work needed to support new programming languages (Now integrated in the Moose Platform under the name of MooseQuery)
 
 </div>
 
@@ -94,7 +103,7 @@ Master of Business Informatics done through a pre-professional contract while wo
 
 ### Internship @ Inria — RMoD team
 
-In charge of the improvement of [Pillar](https://github.com/pillar-markup/pillar). During this internship, I had the opportunity to present the project at the 2015 European Smalltalk User Group conference.
+In charge of the improvement of [Pillar](https://github.com/pillar-markup/pillar). I added new features, the support for Window and I rewrote the parser to have one more simple and efficient. During this internship, I had the opportunity to present the project at the 2015 European Smalltalk User Group conference.
 
 </div>
 
@@ -136,17 +145,27 @@ Graduated with honors.
 
 <h3>Programming Languages</h3>
 
+<div class="skill-legend">
+
+<span class="legend-item"><span class="legend-dot dot-basic"></span>Basic</span>
+
+<span class="legend-item"><span class="legend-dot dot-confirmed"></span>Confirmed</span>
+
+<span class="legend-item"><span class="legend-dot dot-expert"></span>Expert</span>
+
+</div>
+
 <div class="skill-tags">
 
-<span class="skill-tag">Pharo / Smalltalk</span>
+<span class="skill-tag level-expert">Pharo / Smalltalk</span>
 
-<span class="skill-tag">Python</span>
+<span class="skill-tag level-confirmed">HTML5 / CSS3</span>
 
-<span class="skill-tag">Java</span>
+<span class="skill-tag level-confirmed">Vanilla JavaScript</span>
 
-<span class="skill-tag">HTML5 / CSS3</span>
+<span class="skill-tag level-basic">Java</span>
 
-<span class="skill-tag">Vanilla JavaScript</span>
+<span class="skill-tag level-basic">Python</span>
 
 </div>
 
