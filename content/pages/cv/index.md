@@ -125,7 +125,7 @@ Graduated with honors.
 
 <div class="skill-category">
 
-<h3>Skills</h3>
+<h3>Technical Skills</h3>
 
 <div class="skill-tags">
 
@@ -136,6 +136,8 @@ Graduated with honors.
 <span class="skill-tag">Object-Oriented Design</span>
 
 <span class="skill-tag">Legacy Code Refactorings</span>
+
+<span class="skill-tag">Continuous integration</span>
 
 </div>
 
@@ -173,11 +175,15 @@ Graduated with honors.
 
 <div class="skill-category">
 
-<h3>Management</h3>
+<h3>Other skills</h3>
 
 <div class="skill-tags">
 
 <span class="skill-tag">Project Management</span>
+
+<span class="skill-tag">Autnomous</span>
+
+<span class="skill-tag">Documentation writer</span>
 
 </div>
 
