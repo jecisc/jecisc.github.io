@@ -58,7 +58,7 @@ It is a first version and it comes with limitations:
 
 ## What's Next?
 
-Right now, the importer hardcodes that Java projects go through `FamixJavaFoldersImporter`. But Moose has importers for many languages, and each of them might need different information. The idea is to add **pragmas to each Famix importer** to make them discoverable, and let each importer declare which language it handles and which additional information it needs. Toky is already working on a way to detect the importers available in the platform and on a common API, and this importer will plug into it. Once in place, supporting a new language in the GitHub importer should be almost free.
+Right now, the importer hardcodes that Java projects go through `FamixJavaFoldersImporter`. But Moose has importers for many languages, and each of them might need different information. The idea is to add **pragmas to each Famix importer** to make them discoverable, and let each importer declare which language it handles and which additional information it needs. I would like to work on the detection of importers in Moose. Once in place, supporting a new language in the GitHub importer should be almost free.
 
 Being able to use another version of VerveineJ than the latest one is also future work. And the [MooseNexus](https://github.com/moosetechnology/MooseNexus) project might help to have a better integration in the future.
 
