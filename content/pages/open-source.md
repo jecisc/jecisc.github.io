@@ -288,6 +288,20 @@ Tools to import Python code into Moose through its Python metamodel.
 
 </div>
 
+<div class="project-card">
+
+#### [TelescopeSt/TelescopeBloc](https://github.com/TelescopeSt/TelescopeBloc)
+
+A connector for Telescope which renders its visualizations with Bloc, the graphical framework of Pharo. It supports the nodes, layouts, connections, interactions and legends of Telescope, and comes with a demo browser.
+
+<div class="project-meta">
+
+![Pharo](https://img.shields.io/badge/Pharo-blue?style=flat-square) ![since 2018](https://img.shields.io/badge/since_2018-lightgrey?style=flat-square)
+
+</div>
+
+</div>
+
 </div>
 
 ## Projects I contribute to
